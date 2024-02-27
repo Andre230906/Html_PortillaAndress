@@ -1,0 +1,262 @@
+@font-face {
+    font-family: 'opensans';
+    src: url(../fuentes/OpenSans_Condensed-SemiBold.ttf ) format(truetype);
+    font-weight:  bold;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'opensans';
+    src: url(../fuentes/OpenSans-Regular.ttf) format(truetype);
+    font-weight:  normal;
+    font-style: normal;
+}
+
+body{
+    width: 1920px;
+    height: 1080px;
+    background-color: white;
+    margin: 0;
+}
+
+.logo img,
+.card img,
+.card img,
+.greenbox img,
+.arrowdown img,
+.littlelogo img,
+.cart img,
+.search img,
+.arrowup img {
+    width: 100%;
+    height: auto; 
+}
+.logo{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    width: 196px;
+    height: 44px;
+
+}
+
+.whitebackground{
+    margin: auto;
+    width: 1920px;
+    height: 1080px;
+    background-color:white;
+    position: absolute;
+}
+
+.blackbackground{
+    float: right;
+    width: 110px;
+    height: 1080px;
+    background-color:#212020;
+    position: relative;
+    border-radius: 5px
+}
+
+.card{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    width: 1384px;
+    height: 779px;
+}
+
+.arrowup{
+    position: absolute;
+    top: 30px;
+    left: 1850px;
+}
+
+.textone{
+    position: absolute;
+    color: white;
+    top: 140px;
+    left: 1830px;
+    font-family: 'opensans';
+    font-style: 'normal';
+}
+
+.number04{
+    position: absolute;
+    color: gray;
+    top: 385px;
+    left: 1855px;
+    width: 23px;
+    height: 187px;
+    font-family: 'opensans';
+    font-style: 'normal';
+}
+
+.number05{
+    position: absolute;
+    color: white;
+    top: 485px;
+    left: 1855px;
+    width: 23px;
+    height: 187px;
+    font-family: 'opensans';
+    font-style: 'normal';
+}
+
+.number06{
+    position: absolute;
+    color: gray;
+    top: 580px;
+    left: 1855px;
+    width: 23px;
+    height: 187px;
+    font-family: 'opensans';
+    font-style: 'normal';
+}
+
+.arrowdown{
+    position: absolute;
+    top: 1000px;
+    left: 1850px;
+}
+.squaregreen{
+    position: absolute;
+    background-color: #D5FF43;
+    top: 885px;
+    left: 1600px;
+    width: 160px;
+    height: 114px;
+    border-radius: 8px;
+}
+
+.greenbox{
+    position: absolute;
+    background-color: #D5FF43;
+    top: 885px;
+    left: 1600px;
+    width: 160px;
+    height: 114px;
+    border-radius: 8px;
+}
+
+.littlelogo{
+    position: absolute;
+    top: 910px;
+    left: 1615px;
+    width: 129px;
+    height: 29px;
+}
+
+.texttwo{
+    position: absolute;
+    color: black;
+    top: 930px;
+    left: 1625px;
+    font-size: 25px;
+    font-family: 'opensans';
+    font-style: 'bold';
+}
+
+.textthree{
+    position: absolute;
+    color: black;
+    top: 850px;
+    left: 58px;
+    font-size: 40px;
+    font-family: 'opensans';
+    font-style: 'bold';
+}
+
+.textfour{
+    position: absolute;
+    color:black;
+    top: 930px;
+    left: 57px;
+    font-size: 27px;
+    font-family: 'OpenSans_Condensed-SemiBold';
+    /* font-family: 'opensans';
+    font-style: 'bold';  */
+}
+
+.cart{
+    position: absolute;
+    top: 50px;
+    left: 1740px;
+    width: 33px;
+    height: 32px;
+}
+
+button{
+    border: none;
+    background: transparent;
+}
+
+.search{
+    position: absolute;
+    top: 52px;
+    left: 1600px;
+    width: 33px;
+    height: 32px;
+}
+
+.botton{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 10px 20px;
+    top: 50px;
+    left: 1000px;
+    width: 230px;
+    height: 1px;
+    font-size: 30px ;
+    transition: background-color 0.3s ease;
+}
+
+.botton:after {
+    content: "";
+    display: block;
+    width: 146px;
+    height: 2px;
+    background-color: #050505;
+    position: absolute;
+    top: 59px;
+    left: 45px;
+    bottom: -2px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.botton:hover:after{
+    opacity: 1;
+}
+.botton1{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 10px 20px;
+    top: 50px;
+    left: 1350px;
+    width: 230px;
+    height: 1px;
+    font-size: 30px ;
+    transition: background-color 0.3s ease;
+}
+
+.botton1:after {
+    content: "";
+    display: block;
+    width: 136px;
+    height: 2px;
+    background-color: #050505;
+    position: absolute;
+    top: 59px;
+    left: 10px;
+    bottom: -2px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.botton1:hover:after{
+    opacity: 1;
+}
