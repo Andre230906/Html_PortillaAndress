@@ -1,0 +1,325 @@
+@font-face {
+    font-family: 'opensans';
+    src: url(../fuentes/OpenSans_Condensed-SemiBold.ttf ) format(truetype);
+    font-weight:  bold;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'opensans';
+    src: url(../fuentes/OpenSans-Regular.ttf) format(truetype);
+    font-weight:  normal;
+    font-style: normal;
+}
+
+body{
+    width: 1920px;
+    height: 1080px;
+    background-color: white;
+    margin: 0;
+}
+
+.logo img,
+.card img,
+.card img,
+.greenbox img,
+.arrowdown img,
+.littlelogo img,
+.cart img,
+.search img,
+.arrowup img {
+    width: 100%;
+    height: auto; 
+}
+.logo{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    width: 196px;
+    height: 44px;
+
+}
+
+.whitebackground{
+    margin: auto;
+    width: 1920px;
+    height: 1080px;
+    background-color:white;
+    position: absolute;
+}
+
+.blackbackground{
+    float: right;
+    width: 110px;
+    height: 1080px;
+    background-color:#212020;
+    position: relative;
+    border-radius: 5px
+}
+
+.card {
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    width: 676px;
+    height: 424px;
+    transiton: transform 1.5s ease; 
+}
+
+.card:hover {
+    transform: translateY(-10px); 
+}
+
+.arrowup{
+    position: absolute;
+    top: 30px;
+    left: 1850px;
+}
+
+.textone{
+    position: absolute;
+    color: white;
+    top: 140px;
+    left: 1845px;
+    font-size: 26px;
+    font-family: 'opensans';
+    font-style: 'normal';
+}
+
+.numberbar {
+    color: #606060;
+    position: absolute;
+    display: block;
+    left: 1840px;
+    top: 430px;
+    bottom: 250px;
+    font-size: 25px;
+    width: 56px;
+    height: 200px;
+    line-height: 46px;
+    scroll-behavior: smooth;
+    overflow: auto;
+    background-color:#212020;
+    padding: 10px; 
+}
+.numberbar::-webkit-scrollbar {
+    display: none;
+}
+
+.numberbar p {
+    cursor: pointer; 
+}
+
+.numberbar p:hover {
+    color: white; 
+}
+
+
+
+.dontgive {
+    color: transparent;
+    background-color: transparent;
+    size: 25px;
+}
+
+
+.arrowdown{
+    position: absolute;
+    top: 1000px;
+    left: 1850px;
+}
+.squaregreen{
+    position: absolute;
+    background-color: #D5FF43;
+    top: 885px;
+    left: 1600px;
+    width: 160px;
+    height: 114px;
+    border-radius: 8px;
+}
+
+.greenbox{
+    position: absolute;
+    background-color: #D5FF43;
+    top: 885px;
+    left: 1600px;
+    width: 160px;
+    height: 114px;
+    border-radius: 8px;
+}
+
+.littlelogo{
+    position: absolute;
+    top: 910px;
+    left: 1615px;
+    width: 129px;
+    height: 29px;
+}
+
+.texttwo{
+    position: absolute;
+    color: black;
+    top: 930px;
+    left: 1629px;
+    font-size: 25px;
+    font-family: 'opensans';
+    font-style: 'bold';
+    font-weight: bold;
+}
+
+.textthree{
+    position: absolute;
+    color: black;
+    top: 510px;
+    left: 400px;
+    font-size: 55px;
+    font-family: 'opensans';
+    font-style: 'bold';
+    font-weight: bold;
+}
+
+.textfour{
+    position: absolute;
+    color:black;
+    top: 630px;
+    left: 620px;
+    font-size: 40px;
+    font-family: 'OpenSans_Condensed-SemiBold';
+    font-family: 'opensans';
+    font-style: 'bold';
+    font-weight: bold;  
+}
+.textfive{
+    position: absolute;
+    color:black;
+    top: 700px;
+    left: 700px;
+    font-size: 37px;
+    font-family: 'OpenSans_Condensed-SemiBold';
+    font-family: 'opensans';
+    font-style: 'bold';  
+    font-weight: bold;
+}
+.textsix{
+    position: absolute;
+    top: 820px;
+    left: 690px;
+    font-size: 40px;
+    width: 288px;
+    height: 58px;
+    font-family: 'OpenSans_Condensed-SemiBold';
+    font-family: 'opensans';
+    font-style: 'bold';  
+}
+.textsix {
+    position: absolute;
+    top: 820px;
+    left: 690px;
+    font-size: 30px;
+    width: 288px;
+    height: 58px;
+    font-family: 'OpenSans_Condensed-SemiBold', 'opensans', sans-serif;
+}
+
+.textsix button {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #888; 
+    border-radius: 15px; 
+    color: #888; 
+    font-size: inherit;
+    font-family: inherit;
+    background-color: transparent; 
+}
+
+.textsix button:focus {
+    outline: none; 
+}
+
+.cart{
+    position: absolute;
+    top: 50px;
+    left: 1740px;
+    width: 33px;
+    height: 32px;
+}
+
+button{
+    border: gray;
+    background-color:black ;
+    top: 799px;
+    left: 595px;
+    width: 288px;
+    height: 58px;
+}
+
+.search{
+    position: absolute;
+    top: 52px;
+    left: 1600px;
+    width: 33px;
+    height: 32px;
+}
+
+.botton{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 10px 20px;
+    top: 50px;
+    left: 1000px;
+    width: 230px;
+    height: 1px;
+    font-size: 30px ;
+    transition: background-color 0.3s ease;
+}
+
+.botton:after {
+    content: "";
+    display: block;
+    width: 146px;
+    height: 2px;
+    background-color: #050505;
+    position: absolute;
+    top: 59px;
+    left: 45px;
+    bottom: -2px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.botton:hover:after{
+    opacity: 1;
+}
+.botton1{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 10px 20px;
+    top: 50px;
+    left: 1350px;
+    width: 230px;
+    height: 1px;
+    font-size: 30px ;
+    transition: background-color 0.3s ease;
+}
+
+.botton1:after {
+    content: "";
+    display: block;
+    width: 136px;
+    height: 2px;
+    background-color: #050505;
+    position: absolute;
+    top: 59px;
+    left: 10px;
+    bottom: -2px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.botton1:hover:after{
+    opacity: 1;
+}
