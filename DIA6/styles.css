@@ -57,12 +57,17 @@ body{
     border-radius: 5px
 }
 
-.card{
+.card {
     position: absolute;
     top: 100px;
     left: 200px;
     width: 1384px;
     height: 779px;
+    transition: transform 1.5s ease; 
+}
+
+.card:hover {
+    transform: translateY(-10px); 
 }
 
 .arrowup{
@@ -78,40 +83,37 @@ body{
     left: 1830px;
     font-family: 'opensans';
     font-style: 'normal';
+
 }
 
-.number04{
+.numberbar {
+    color: #606060;
     position: absolute;
-    color: gray;
-    top: 385px;
-    left: 1855px;
-    width: 23px;
-    height: 187px;
-    font-family: 'opensans';
-    font-style: 'normal';
+    display: block;
+    left: 1840px;
+    top: 430px;
+    bottom: 250px;
+    font-size: 25px;
+    width: 56px;
+    height: 200px;
+    line-height: 46px;
+    scroll-behavior: smooth;
+    overflow: auto;
+    background-color:#212020;
+    padding: 10px; 
+}
+.numberbar::-webkit-scrollbar {
+    display: none;
 }
 
-.number05{
-    position: absolute;
-    color: white;
-    top: 485px;
-    left: 1855px;
-    width: 23px;
-    height: 187px;
-    font-family: 'opensans';
-    font-style: 'normal';
+.numberbar p {
+    cursor: pointer; 
 }
 
-.number06{
-    position: absolute;
-    color: gray;
-    top: 580px;
-    left: 1855px;
-    width: 23px;
-    height: 187px;
-    font-family: 'opensans';
-    font-style: 'normal';
+.numberbar p:hover {
+    color: white; 
 }
+
 
 .arrowdown{
     position: absolute;
@@ -150,10 +152,11 @@ body{
     position: absolute;
     color: black;
     top: 930px;
-    left: 1625px;
+    left: 1630px;
     font-size: 25px;
     font-family: 'opensans';
     font-style: 'bold';
+    font-weight: bold;
 }
 
 .textthree{
@@ -164,6 +167,8 @@ body{
     font-size: 40px;
     font-family: 'opensans';
     font-style: 'bold';
+    font-weight: bold;
+    font-weight: bold;
 }
 
 .textfour{
@@ -173,8 +178,9 @@ body{
     left: 57px;
     font-size: 27px;
     font-family: 'OpenSans_Condensed-SemiBold';
-    /* font-family: 'opensans';
-    font-style: 'bold';  */
+    font-family: 'opensans';
+    font-style: 'bold'; 
+    font-weight: bold; 
 }
 
 .cart{
