@@ -59,11 +59,11 @@ body{
 
 .card {
     position: absolute;
-    top: 100px;
-    left: 200px;
-    width: 1384px;
-    height: 779px;
-    transition: transform 1.5s ease; 
+    top: 200px;
+    left: 500px;
+    width: 676px;
+    height: 424px;
+    transiton: transform 1.5s ease; 
 }
 
 .card:hover {
@@ -80,10 +80,10 @@ body{
     position: absolute;
     color: white;
     top: 140px;
-    left: 1830px;
+    left: 1845px;
+    font-size: 26px;
     font-family: 'opensans';
     font-style: 'normal';
-
 }
 
 .numberbar {
@@ -112,6 +112,14 @@ body{
 
 .numberbar p:hover {
     color: white; 
+}
+
+
+
+.dontgive {
+    color: transparent;
+    background-color: transparent;
+    size: 25px;
 }
 
 
@@ -152,7 +160,7 @@ body{
     position: absolute;
     color: black;
     top: 930px;
-    left: 1630px;
+    left: 1629px;
     font-size: 25px;
     font-family: 'opensans';
     font-style: 'bold';
@@ -162,25 +170,70 @@ body{
 .textthree{
     position: absolute;
     color: black;
-    top: 850px;
-    left: 58px;
-    font-size: 40px;
+    top: 510px;
+    left: 400px;
+    font-size: 55px;
     font-family: 'opensans';
     font-style: 'bold';
-    font-weight: bold;
     font-weight: bold;
 }
 
 .textfour{
     position: absolute;
     color:black;
-    top: 930px;
-    left: 57px;
-    font-size: 27px;
+    top: 630px;
+    left: 620px;
+    font-size: 40px;
     font-family: 'OpenSans_Condensed-SemiBold';
     font-family: 'opensans';
-    font-style: 'bold'; 
-    font-weight: bold; 
+    font-style: 'bold';
+    font-weight: bold;  
+}
+.textfive{
+    position: absolute;
+    color:black;
+    top: 700px;
+    left: 700px;
+    font-size: 37px;
+    font-family: 'OpenSans_Condensed-SemiBold';
+    font-family: 'opensans';
+    font-style: 'bold';  
+    font-weight: bold;
+}
+.textsix{
+    position: absolute;
+    top: 820px;
+    left: 690px;
+    font-size: 40px;
+    width: 288px;
+    height: 58px;
+    font-family: 'OpenSans_Condensed-SemiBold';
+    font-family: 'opensans';
+    font-style: 'bold';  
+}
+.textsix {
+    position: absolute;
+    top: 820px;
+    left: 690px;
+    font-size: 30px;
+    width: 288px;
+    height: 58px;
+    font-family: 'OpenSans_Condensed-SemiBold', 'opensans', sans-serif;
+}
+
+.textsix button {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #888; 
+    border-radius: 15px; 
+    color: #888; 
+    font-size: inherit;
+    font-family: inherit;
+    background-color: transparent; 
+}
+
+.textsix button:focus {
+    outline: none; 
 }
 
 .cart{
@@ -192,8 +245,12 @@ body{
 }
 
 button{
-    border: none;
-    background: transparent;
+    border: gray;
+    background-color:black ;
+    top: 799px;
+    left: 595px;
+    width: 288px;
+    height: 58px;
 }
 
 .search{
